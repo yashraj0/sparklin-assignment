@@ -1,3 +1,19 @@
+# taxmann-bookstore-react-hooks-and-redux
+This is a demo application for displaying some study book entities as a category sorted view. I have used useState hook and redux to accomplish the purpose and to handle the global state, Hooks make the code tidy and more readable.
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install the required dependencies listed in package.json / package-lock.json files . Navigate to the root dir of the project, open the terminal and do :
+
+```bash
+npm install
+```
+After this, do
+```bash
+npm start
+```
+and the app should start on [localhost](http://localhost:3000/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
