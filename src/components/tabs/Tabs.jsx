@@ -14,7 +14,6 @@ const Tabs = (props) => {
         }
         //if the tab being closed is the active tab and the last tab then another tab has to be made active
         if(id === currentActiveTab.id && id === tabList[length-1].id ) {
-            console.log('going to close the curren active tab and last tab :', id)
             let last_tab = tabList[length - 2]
             props.setTabActive(last_tab)
             props.removeTab(id)

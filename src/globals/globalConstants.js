@@ -168,7 +168,8 @@ export let booksListing = [
         specialTag : 'Best Seller',
         tags : [
             'recommended_for_you', 'new_releases', 'featured', 'latest',
-            'e_services', 'e_books'
+            'e_services', 'e_books', 'direct_tax_laws', 'indirect_tax_laws', 'accounts_and_audit',
+            'banking_and_insurance'
         ]
     },
     {
@@ -181,7 +182,8 @@ export let booksListing = [
         specialTag : null,
         tags : [
             'recommended_for_you', 'new_releases', 'featured', 'latest',
-            'e_services', 'e_books'
+            'e_services', 'e_books', 'direct_tax_laws', 'accounts_and_audit',
+            'banking_and_insurance'
         ]
     },
     {
@@ -194,7 +196,8 @@ export let booksListing = [
         specialTag : 'Limited Edition',
         tags : [
             'recommended_for_you', 'new_releases', 'featured', 'latest',
-            'e_services', 'e_books'
+            'e_services', 'e_books', 'insolvency_and_bankruptcy_code', 'gst',
+            'bare_acts'
         ]
     },
     {
@@ -207,7 +210,8 @@ export let booksListing = [
         specialTag : 'Limited Edition',
         tags : [
             'recommended_for_you', 'new_releases',
-            'e_journals', 'e_books'
+            'e_journals', 'e_books', 'insolvency_and_bankruptcy_code', 'gst',
+            'bare_acts'
         ]
     },
     {
@@ -220,7 +224,7 @@ export let booksListing = [
         specialTag : 'Best Seller',
         tags : [
             'recommended_for_you', 'new_releases',
-            'e_journals', 'e_books'
+            'e_journals', 'e_books', 'international_taxation', 'gst'
         ]
     },
     {
@@ -233,7 +237,7 @@ export let booksListing = [
         specialTag : null,
         tags : [
             'recommended_for_you', 'new_releases',
-            'e_journals', 'e_books'
+            'e_journals', 'e_books', 'international_taxation', 'indirect_tax_laws', 'gst'
         ]
     },
 

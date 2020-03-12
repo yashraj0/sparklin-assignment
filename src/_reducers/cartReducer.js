@@ -2,7 +2,7 @@ import {ADD_TO_CART, REMOVE_FROM_CART, EMPTY_CART} from './../_constants/cartCon
 
 const intialState = {
    cart : [
-      //array of objects
+      //array of strings
    ]
 }
 
@@ -15,7 +15,7 @@ const tabReducer = (state = intialState, action) => {
            }
 
         case REMOVE_FROM_CART :
-           let filteredArray = state.cart.filter(item => item.id!== action.removeId)
+           let filteredArray = state.cart.filter(item => item !== action.removeId)
            return {
               ...state,
               cart : [...filteredArray]
