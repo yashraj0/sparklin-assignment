@@ -1,5 +1,5 @@
 # taxmann-bookstore-react-hooks-and-redux
-This is a demo application for displaying some study book entities as a category sorted view. I have used useState hook and redux to accomplish the purpose and to handle the global state, Hooks make the code tidy and more readable.
+This is a demo application for displaying some study book entities as a category sorted view. I have used useState hook and redux to accomplish the purpose and to handle the global state, Hooks make the code tidy and more readable. Actions and Redux Store changes can be seen in the console (redux-logger). Page reloads preserves the Redux Store (with the help of localStorage).
 
 ## Installation
 

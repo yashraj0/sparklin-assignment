@@ -1,7 +1,8 @@
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from './../_reducers/rootReducer';
 import { createLogger } from 'redux-logger'
- 
+import { loadState } from './localStorage';
+
 const logger = createLogger({
   colors: {
     title: () => '#ff8a12',
@@ -12,8 +13,12 @@ const logger = createLogger({
   },
 });
 
+//this function is executed everytime after a reload happens on the app so as to fetch the previous store
+let persistedState = loadState();
+//console.log('store extracted from localStorage : ', persistedState)
+
 const store =  createStore(
-  rootReducer,
+  rootReducer, persistedState,
   applyMiddleware(logger)
 );
 
